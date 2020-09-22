@@ -5,10 +5,12 @@ h1{
     text-align: center;
     font-size: 60px;
     color: black;
+    font-family: 'Russo One', sans-serif;
   }
   h2{
       text-align: left;
       text-decoration: underline;
+      font-family: 'Montserrat', sans-serif;
   }
 
   img {
@@ -17,4 +19,5 @@ h1{
   p{
       text-align: center;
       background-color: orange;
+      font-family: 'IBM Plex Mono', monospace;
   }
