@@ -1,9 +1,6 @@
 h1{
-    height: 70px;
-    padding: 10px;
-    background-color: orange;
     text-align: center;
-    font-size: 60px;
+    font-size: 1rem;
     color: black;
     font-family: 'Russo One', sans-serif;
   }
@@ -11,13 +8,20 @@ h1{
       text-align: left;
       text-decoration: underline;
       font-family: 'Montserrat', sans-serif;
+      font-size: 1rem;
   }
-
   img {
-      position:absolute; right: 10px; top: 10px;
-  }
+    margin: 1rem;
+    }
+
+
   p{
       text-align: center;
       background-color: orange;
       font-family: 'IBM Plex Mono', monospace;
+  }
+  header
+  { height: 22rem;
+    background-color: orange;
+    text-align: center;
   }
