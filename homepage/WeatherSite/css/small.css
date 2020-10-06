@@ -1,10 +1,58 @@
 .flex-container{
     display: flex;
     flex-direction: row;
-
+    justify-content: center;
 }
 
 .flex-container > div {
     width: 200px;
     margin: 10px;
+    color: #ECE5F0;
+}
+
+.head{
+    background-color: #59114D;
+    color: #ECE5F0;
+    text-align: center;
+    margin: 0px 10px;
+    padding: 0px;
+}
+
+body{
+    background-color: #ECE5F0;
+}
+nav{
+    color: #ECE5F0;
+    background-color:#59114D;
+    margin: 0px 10px;
+    padding: 0px;
+}
+nav a {
+    color: #59114D;
+    background-color:gold;
+    display: block;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+  
+}
+nav a:hover{
+    background-color: #ECE5F0;
+    color: #59114D;
+}
+footer{
+    background-color: #59114D;
+    color: #ECE5F0;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+.logoTop{
+   position: relative;
+   right: 10px;
+
+}
+.logoTop img{
+    height: 70px;
 }
