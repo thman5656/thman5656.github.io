@@ -7,20 +7,27 @@
     <meta name="description" contetn="this is the home page for all the planning pages for the weather site project">
     <link rel="stylesheet" href="css\normalize.css">
     <link rel="stylesheet" href="css/small.css">
-
+    <script>
+       window.onload = function(){navigation()}
+       function navigation()
+       { 
+        var ActivePage = document.URL;
+        var ActiveHREF = ActivePage.substr(ActivePage.lastIndexOf("/"));
+        document.getElementById(ActiveHREF).style.backgroundColor = "orange";
+       }
+    </script>
 </head>
 <body>
     <header>
         <h1 class = head>Clarksville Community Information</h1>
-
         
     </header>
     <nav>  
         <div class = flex-container>
-            <div><a href="index.html">Homepage</a></div>
-            <div><a href="Target-audience.html">Target-Audience</a></div>
-            <div><a href="color-scheme.html">Color-scheme</a></div>
-            <div><a href="typography.html">Typography</a></div>
+            <div><a id = "/index.html" href="index.html" class = "/index.html">Homepage</a></div>
+            <div><a  id = "/Target-audience.html" href="Target-audience.html" class = "Target">Target-Audience</a></div>
+            <div > <a id = "/color-scheme.html" href="color-scheme.html" class = "Color">Color-scheme</a></div>
+            <div><a id = "/typography.html" href="typography.html" class = "Typo">Typography</a></div>
         </div>
     </nav>
     <main>

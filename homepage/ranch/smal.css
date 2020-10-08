@@ -74,7 +74,9 @@ padding: 1rem 2%;
 background-color: green;
 }
 
-
+.current-link {
+    color:#baada7;
+}
 
 
 

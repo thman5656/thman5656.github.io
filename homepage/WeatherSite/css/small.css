@@ -14,18 +14,20 @@
     background-color: #59114D;
     color: #ECE5F0;
     text-align: center;
-    margin: 0px 10px;
-    padding: 0px;
+    margin: 10px 10px 0px 10px;
+  
 }
 
 body{
     background-color: #ECE5F0;
+    padding: 10px 10px 0px 10px;
 }
 nav{
     color: #ECE5F0;
     background-color:#59114D;
     margin: 0px 10px;
     padding: 0px;
+    
 }
 nav a {
     color: #59114D;
@@ -35,8 +37,10 @@ nav a {
     text-align: center;
     text-decoration: none;
     font-size: 25px;
-  
+
 }
+
+
 nav a:hover{
     background-color: #ECE5F0;
     color: #59114D;
@@ -56,3 +60,8 @@ footer{
 .logoTop img{
     height: 70px;
 }
+
+.current-link {
+    background-color: blue;
+}
+
