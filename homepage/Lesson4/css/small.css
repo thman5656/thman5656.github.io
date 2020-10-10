@@ -1,0 +1,49 @@
+#navigation {
+    width: 100%;
+    background: #000;
+    position: sticky;
+
+  }
+  
+  #navigation label, #dropdown {
+       display: none; 
+       position: absolute;
+       top:0px;
+       right: 0px;
+    }
+  
+  /* Horizontal Menu Items */
+  #navigationItems { display: flex; }
+  #navigationItems a {
+    width: 20%; /* 100% / 5 tabs = 20% */
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+  #navigationItems a:hover {
+    background: #401408;
+  }
+  
+    /* Show Hamburger Icon */
+    #navigation label { 
+      display: inline-block; 
+      color: white;
+      background: #a02620;
+      font-style: normal;
+      font-size: 1.2em;
+      padding: 10px;
+    }
+  
+    /* Break down menu items into vertical */
+    #navigationItems a {
+      box-sizing: border-box;
+      display: block;
+      width: 100%;
+      border-top: 1px solid #333;
+    }
+  
+    /* Toggle Show/Hide Menu */
+    #navigationItems { display: none; }
+    #navigation input:checked ~ #navigationItems { display: block; }
+  
