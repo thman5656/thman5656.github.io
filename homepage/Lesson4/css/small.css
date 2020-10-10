@@ -1,49 +1,83 @@
-#navigation {
-    width: 100%;
-    background: #000;
-    position: sticky;
+* { -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; box-sizing: border-box;}
 
+
+/*Formatting the header to look correct on the small screen */
+#logoPic img {width: 6rem;}
+
+#headerwrapper
+{
+  background-color: #eef;
+  padding:.5rem 0 .5rem 2%;
+  display: grid; 
+  grid-template-columns: 110px auto;
+  grid-template-rows: 110px auto;
+  height: 6.5rem;
+}
+#navWrapper
+{
+  position: absolute;
+  top: 10px; 
+  right: 20px;
+}
+
+  /*formatting the navigation to be displayed under the header when the page is big and in hamburger icon when small */
+ ul
+ {
+   list-style-type: none;
+   display:flex;
+   flex-direction: column;
+   text-align: center;
+   margin: 10px; 
+   padding: 10px;
+   justify-content: center;
+   background-color: aqua;
+   color: black;
+ }
+
+ ul a:hover{ background-color: blue;}
+
+ ul a
+ {
+  display: block;
+  height: 30px;
+ }
+
+ nav button
+ {
+   margin:2rem 2%;
+   background-color:lightblue;
+   border: none;
+   font-size: 1.6rem;
+   color:#eee;
+ }
+ .noshow{display:none;}
+
+/*Weather section stuff*/
+#weatherSummary
+{
+  background-color: aquamarine;
+}
+
+/*forcast section stuff*/
+#Forcast
+{
+  background-color: aliceblue;
+}
+
+/*article section stuff*/
+#Article
+{
+  background-color: bisque;
+}
+
+/*footer stuff*/
+
+
+/*contact us stuff*/
+ 
+.clearfix:after {
+  content: "";
+  display: table; 
+  clear: both;
   }
-  
-  #navigation label, #dropdown {
-       display: none; 
-       position: absolute;
-       top:0px;
-       right: 0px;
-    }
-  
-  /* Horizontal Menu Items */
-  #navigationItems { display: flex; }
-  #navigationItems a {
-    width: 20%; /* 100% / 5 tabs = 20% */
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-  }
-  #navigationItems a:hover {
-    background: #401408;
-  }
-  
-    /* Show Hamburger Icon */
-    #navigation label { 
-      display: inline-block; 
-      color: white;
-      background: #a02620;
-      font-style: normal;
-      font-size: 1.2em;
-      padding: 10px;
-    }
-  
-    /* Break down menu items into vertical */
-    #navigationItems a {
-      box-sizing: border-box;
-      display: block;
-      width: 100%;
-      border-top: 1px solid #333;
-    }
-  
-    /* Toggle Show/Hide Menu */
-    #navigationItems { display: none; }
-    #navigation input:checked ~ #navigationItems { display: block; }
-  
