@@ -1,24 +1,23 @@
-* { -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box; box-sizing: border-box;}
-
-
 /*Formatting the header to look correct on the small screen */
-#logoPic img {width: 6rem;}
+#logoPic img {width: 200px;}
 
 #headerwrapper
 {
   background-color: #eef;
-  padding:.5rem 0 .5rem 2%;
+  padding:20px;
   display: grid; 
-  grid-template-columns: 110px auto;
-  grid-template-rows: 110px auto;
-  height: 6.5rem;
+  grid-template-columns: 210px auto;
+  grid-template-rows: 210px auto;
+  height: 210px;
+  margin: 20px, 20px;
 }
-#navWrapper
+#nameandmotto h1
 {
-  position: absolute;
-  top: 10px; 
-  right: 20px;
+  font-size: 70px;
+}
+#nameandmotto p
+{
+  font-size: 40px;
 }
 
   /*formatting the navigation to be displayed under the header when the page is big and in hamburger icon when small */
@@ -40,41 +39,84 @@
  ul a
  {
   display: block;
-  height: 30px;
+  height: 60px;
+  font-size: 40px;
+  text-decoration: none;
  }
 
- nav button
- {
-   margin:2rem 2%;
-   background-color:lightblue;
-   border: none;
-   font-size: 1.6rem;
-   color:#eee;
- }
+ .block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: lightblue;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  height: 100px;
+}
+
+body h1{
+  font-size: 50px;
+}
  .noshow{display:none;}
+
+ /*hero image stuff*/
+ #heroImage
+ {
+   background-color: aquamarine;
+   text-align: center;
+   height: 100px;
+   font-size: 35px;
+   margin: 20px;   
+ }
+
 
 /*Weather section stuff*/
 #weatherSummary
 {
   background-color: aquamarine;
+  text-align: center;
+  height: 100px;
+  font-size: 35px;
+  margin: 20px;
+
 }
 
 /*forcast section stuff*/
 #Forcast
 {
-  background-color: aliceblue;
+  background-color: aquamarine;
+  text-align: center;
+  height: 100px;
+  font-size: 35px;
+  margin: 20px;
 }
 
 /*article section stuff*/
 #Article
 {
-  background-color: bisque;
+  background-color: aquamarine;
+  text-align: center;
+  height: 100px;
+  font-size: 35px;
+  margin: 20px;
 }
 
 /*footer stuff*/
 
 
 /*contact us stuff*/
+#Contactus
+{
+  text-align: center;
+  font-size: 20px;
+}
+#lastModDate
+{
+  text-align: center;
+  font-size: 20px;
+}
  
 .clearfix:after {
   content: "";
