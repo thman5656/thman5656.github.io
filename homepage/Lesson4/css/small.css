@@ -1,23 +1,27 @@
 /*Formatting the header to look correct on the small screen */
-#logoPic img {width: 200px;}
+#logoPic img 
+{
+  width: 200px;
+}
 
 #headerwrapper
 {
   background-color: #eef;
-  padding:20px;
-  display: grid; 
-  grid-template-columns: 210px auto;
-  grid-template-rows: 210px auto;
-  height: 210px;
+  padding:2%;
+  display: inline-flex; 
   margin: 20px, 20px;
+  width: 100%;
 }
 #nameandmotto h1
 {
   font-size: 70px;
+
 }
 #nameandmotto p
 {
   font-size: 40px;
+  grid-row: 1;
+  grid-column: 2;
 }
 
   /*formatting the navigation to be displayed under the header when the page is big and in hamburger icon when small */
