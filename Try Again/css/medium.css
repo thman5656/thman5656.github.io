@@ -1,0 +1,34 @@
+@media only screen and (min-width:1300px ){
+
+    nav
+    {
+        column-count: 2;
+        column-width: 30rem;
+        column-gap: 5%;
+        padding: 2%;
+    }
+    header 
+    {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 0px;
+    }
+
+    #FamilyPic
+    {
+        display: inline;
+        width: 20%;
+    }    
+    
+    h1
+    {
+        font-size: 5rem;
+    }
+    #ClassName
+    {
+        margin-top: 0px;
+    }
+
+
+}/*end of media query */

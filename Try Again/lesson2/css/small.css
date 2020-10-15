@@ -1,0 +1,61 @@
+/*Header Items */
+
+header 
+{
+    background-color: #0D6456;
+    color: #03F7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 5%;
+}
+
+/*body css items*/
+body
+{
+    background-color: #133D36;
+
+}
+
+main
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#RullofThirds
+{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+h1
+{
+    text-align: center;
+    color: #03F7EB;
+    font-size: 40px;
+}
+
+h2
+{
+    text-align: center;
+    color: #03F7EB;
+    font-size: 30px;
+    padding: 20px;
+}
+p{
+    text-align: left;
+    font-size: 30px;
+    margin: 10px;
+    color: #02D5C0;
+}
+
+img
+{
+    padding: 20%;
+}
+footer p 
+{
+   text-align: center;
+}

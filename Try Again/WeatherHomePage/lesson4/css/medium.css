@@ -1,0 +1,28 @@
+@media only screen and (min-width:700px )
+{
+    .block
+        {
+            display: none;
+        }
+    #navigation
+        {
+            display: flex;
+            flex-direction: row;
+            background-color: #116466;
+            text-align: center;
+            list-style-type: none;
+        }
+
+    #navigation a:hover
+        {
+            background-color: #2c3531;
+        }
+    #navigation li 
+        {
+            display: block; 
+            width: 20%;
+        }
+}
+
+
+

@@ -1,0 +1,124 @@
+/*Header stuff*/
+    img
+        {
+            width: 150px; 
+        }
+    #headerwrapper
+        {
+            background-color: white;
+            color: #116466;
+            display: flex;
+            margin: 2.5% 2.5% 0 2.5%;
+            width: 95%;
+        }
+    #nameandmotto h1
+        {
+            font-size: 50px;
+            text-align: center;
+        }
+    #nameandmotto p
+        {
+            font-size: 40px;
+            text-align: center;
+            padding: none;
+        }
+
+/*Button Stuff*/
+    .noshow
+        {
+            display: none;
+        }
+    button
+        {
+            width: 95%; 
+            margin: 1% 2.5%;
+            font-size: 40px;
+            background-color: #D1e8e2;
+            padding: none;
+        }
+    .shownav
+        {
+            background-color: #116466;
+            text-align: center;
+            list-style-type: none;
+        }
+    li a
+        {
+            color: #D1e8e2;
+            font-size: 40px;
+            display: block;
+            width: 95%;
+            text-decoration: none;
+        }
+    li a:hover
+        {
+            background-color: #2c3531;
+        }
+
+/*Body Stuff*/
+    body
+        {
+            background-color:  #2c3531;
+        }
+    #pageName
+        {
+            font-size: 60px;
+            color: #D1e8e2;
+            margin: 5%;
+        }
+
+ /*hero image stuff*/
+    #heroImage
+        {
+            background-color: #116466;
+            color: #D1e8e2;
+            text-align: center;
+            height: 100px;
+            font-size: 200%;
+            margin: 20px;   
+        }
+
+
+/*Weather section stuff*/
+    #weatherSummary
+        {
+            background-color: #116466;
+            color: #D1e8e2;
+            text-align: center;
+            height: 100px;
+            font-size: 180%;
+            margin: 20px;
+        }
+
+/*forcast section stuff*/
+    #Forcast
+        {
+            background-color: #116466;
+            color: #D1e8e2;
+            text-align: center;
+            height: 100px;
+            font-size: 200%;
+            margin: 20px;
+        }
+
+/*article section stuff*/
+    #Article
+        {
+            background-color: #116466;
+            color: #D1e8e2;
+            text-align: center;
+            height: 100px;
+            font-size: 200%;
+            margin: 20px;
+        }
+
+/*Footer Stuff*/
+    footer  
+        {   
+            font-size: 20px;
+            text-align: center;
+            color: #116466;
+            background-color: white;
+            margin: 2.5% 2.5% 0 2.5%;
+            width: 95%;
+        }

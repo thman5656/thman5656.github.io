@@ -1,0 +1,11 @@
+@media only screen and (min-width:2056px ){
+
+    #linkItems
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+
+}/*end of media query */

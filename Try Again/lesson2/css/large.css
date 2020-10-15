@@ -1,0 +1,15 @@
+@media only screen and (min-width:1400px ){
+
+    main
+    {
+        display: grid;
+        column-gap: 10%;
+        grid-template-columns: 1fr 1fr 1fr;
+      
+    }
+    div.contrast
+    {
+        grid-column: span 1;
+    }
+
+}/*end of media query */
