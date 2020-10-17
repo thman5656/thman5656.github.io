@@ -22,6 +22,48 @@
             display: block; 
             width: 20%;
         }
+
+    #Forcast
+        {
+            display: block;
+            color: #D1e8e2;
+            text-align: left;
+            height: 100px;
+            font-size: 200%;
+            margin: 20px;
+            
+        }
+
+    section.Forcastcont
+        {
+            display: grid;
+            grid-template-columns: 20% 20% 20% 20% 20%;
+            background-color: white;
+            margin: 5%;
+            
+        }
+    section.Forcastcont div 
+        {
+            text-align: center;
+            border: 1px solid #aaaaaa;
+        }
+    section.Forcastcont div h5
+        {
+            font-size: 25px;
+            margin: 0;
+            padding: 1rem 0;
+        }
+   
+     section.Forcastcont div p
+        {
+            font-size: 25px;
+        }
+
+     section.Forcastcont div img
+        {
+            width: 50%;
+        }
+    
 }
 
 

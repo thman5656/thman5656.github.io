@@ -18,7 +18,7 @@
         }
     #nameandmotto p
         {
-            font-size: 40px;
+            font-size: 30px;
             text-align: center;
             padding: none;
         }
@@ -68,38 +68,57 @@
         }
 
  /*hero image stuff*/
-    #heroImage
+    section.heroArea
         {
-            background-color: #116466;
-            color: #D1e8e2;
-            text-align: center;
-            height: 100px;
-            font-size: 200%;
-            margin: 20px;   
+            width: 95%;
+            height: 40%; 
+            margin: 0% 2.5%;
+
+            background-image: url(images/landscape-1622739_1280.jpg);
+            background-size: cover;
         }
 
+
+    
 
 /*Weather section stuff*/
-    #weatherSummary
+    #WeatherSummary
         {
-            background-color: #116466;
-            color: #D1e8e2;
+            display: flex;
+            flex-direction: column;
+            margin: 5%; 
+            width: 30%;
+            padding: 10% 0% 10% 0%;
             text-align: center;
-            height: 100px;
-            font-size: 180%;
-            margin: 20px;
         }
+    #WeatherSummary p
+        {
+            background-color: white;
+            font-size: 26px;
+            margin: 0;
+            padding: 2px;
+            font-weight: 700;
+        }
+    #WeatherSummary h5
+        {
+            background-color: white;
+            font-size: 30px;
+            margin: 0;
+            padding: 5%;
+            
+        }
+
+        
 
 /*forcast section stuff*/
     #Forcast
         {
-            background-color: #116466;
-            color: #D1e8e2;
-            text-align: center;
-            height: 100px;
-            font-size: 200%;
-            margin: 20px;
+            display: none;
         }
+    section.Forcastcont
+    {
+        display: none; 
+    }
 
 /*article section stuff*/
     #Article
