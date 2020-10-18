@@ -1,13 +1,6 @@
-//need to use JS to make the menu items show the active page 
-//need to use JS to show date in the footer 
-
-window.onload = function(){lastModDate()}
 window.onload = function(){PopupMessage()}
-function lastModDate()
-  {
-    const CurrentDate = {weekday: "long", day: "numeric", month: "long", year: "numeric"};
-  document.getElementById("lastModDate").innerHTML = new Date().toLocaleDateString("en-US", CurrentDate);
-  }
+window.onload = function(){navigation()}
+
 
 function toggleMenu()
   { 
@@ -24,4 +17,11 @@ function PopupMessage()
 
     if(daynumber == 6){document.getElementById('Message').setAttribute("Class", "show")}
     else {document.getElementById("Message").setAttribute("class","noshow")}
+  }
+
+  function navigation()
+  { 
+   var ActivePage = document.URL;
+   var ActiveHREF = ActivePage.substr(ActivePage.lastIndexOf("/"));
+   document.getElementById(ActiveHREF).style.backgroundColor = "orange";
   }

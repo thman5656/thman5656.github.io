@@ -23,6 +23,10 @@
             padding: none;
         }
 
+    #Curpage
+        {
+            background-color: orange;
+        }
 /*Button Stuff*/
     .noshow
         {
@@ -106,7 +110,7 @@
             padding: 2px;
             font-weight: 700;
         }
-    #WeatherSummary h5
+    #WeatherSummary h2
         {
             background-color: white;
             font-size: 30px;
@@ -173,4 +177,9 @@
             background-color: white;
             margin: 2.5% 2.5% 0 2.5%;
             width: 95%;
+        }
+    #lastModDate
+        {
+            font-size: 30px;
+            background-color: pink;
         }
