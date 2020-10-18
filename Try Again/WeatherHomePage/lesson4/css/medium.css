@@ -63,7 +63,18 @@
         {
             width: 50%;
         }
+
+        #map 
+        {
+            display: block;
+            width: 90%;
+            margin: 2%;
+        }
     
+        #info
+        {
+            font-size: 40px;
+        }
 }
 
 
