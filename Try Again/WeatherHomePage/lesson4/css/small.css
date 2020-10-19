@@ -20,7 +20,7 @@
         {
             font-size: 30px;
             text-align: center;
-            padding: none;
+            padding: 0;
         }
 
     #Curpage
@@ -38,7 +38,7 @@
             margin: 1% 2.5% 0 2.5%;
             font-size: 40px;
             background-color: #D1e8e2;
-            padding: none;
+            padding: 0;
         }
     .shownav
         {
