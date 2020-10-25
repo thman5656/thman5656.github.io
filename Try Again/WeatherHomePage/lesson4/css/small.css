@@ -13,14 +13,12 @@
         }
     #nameandmotto h1
         {
-            font-size: 50px;
+            font-size: 10vw;
             text-align: center;
         }
     #nameandmotto p
         {
-            font-size: 30px;
-            text-align: center;
-            padding: 0;
+            display: none;
         }
 
     #Curpage
@@ -79,16 +77,41 @@
         }
 
  /*hero image stuff*/
-    section.heroArea
-        {
-            width: 95%;
-            height: 40%; 
-            margin: 0% 2.5%;
+ 
+ .hero{
+    position: relative;
+}
+.heroImage{
+    display: block;
+    width: 100%;
+}
+.heroImage img{
+    width: 100%;
+}
+.CurrentWeather{
+    position: absolute;
+    top: 2rem;
+    margin-left: 3rem;
+    width: 25%;
+    height: 40%;
+    background-color: white;
+    padding: 1rem 1rem;
+    border: 2.5px solid black;
+   
+}
 
-            background-image: url(images/landscape-1622739_1280.jpg);
-            background-size: cover;
-        }
+.CurrentWeather h2
+{
+    font-size: 5vw;
+}
 
+.CurrentWeather p 
+{
+    font-size: 3vw;
+}
+.CurrentWeather h2, p{
+    margin: 3px 0 0 0;
+}
 
     
 

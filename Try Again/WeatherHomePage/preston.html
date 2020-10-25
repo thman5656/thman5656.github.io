@@ -18,8 +18,8 @@
            <div id = "headerwrapper">
                <div id = "logoPic"><img src = "lesson4/css/images/sitelogo.jpg" alt = "logo"> </div>
                <div id = "nameandmotto">    
-                    <h1>The Weather Site</h1>
-                    <p>Motto for site place holder</p>
+                    <h1>Weather Site</h1>
+                    <p>Right here when you need us</p>
                 </div>
             </div> 
         </header>
@@ -42,13 +42,20 @@
                 <p>Come and join us at town square for hotdogs and hamburgers today from 12pm to 4pm </p>
             </div>
             <h1 id = "pageName">Preston Idaho</h1>
-            <section class = "heroArea">
-                <div id = WeatherSummary>
-                    <h2>Weather Summary</h2>
-                    <p>High: 50&#8451;</p>
-                    <p>Low: 45&#8451;</p>
-                    <p>Wind: 20 m/h</p>
+            <section class="hero">
+                <picture class="heroImage">
+                    <source media="(max-width: 700px)" srcset="lesson4/css/images/smallhero.JPG">
+                    <source media="(max-width: 1700px)" srcset="lesson4/css/images/mediumhero.jpeg">
+                    <img src="lesson4/css/images/largeHero.jpeg" alt="hero image">
+                </picture>
+                <div class="CurrentWeather">
+                    <h2>Summary</h2>
+                    <p>Currently: Cloudy</p>
+                    <p>High: <span id="currentHigh">26</span>&deg;F</p>
+                    <p>Wind Chill: <span id="windChill"></span>&deg;F</p>
+                    <p>Wind: <span id="wind">4</span>MPH</p>
                 </div>
+            </section>
             </section>
             <div id = "Forcast">
                 <h1>Five Day Forcast</h1>
@@ -114,4 +121,5 @@
 
             </script>
         </footer>
+        <script src="lesson4/js/windchill.js"></script>
 </html>
