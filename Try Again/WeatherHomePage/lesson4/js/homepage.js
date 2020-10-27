@@ -1,23 +1,8 @@
-window.onload = function(){PopupMessage()}
+/***************************************************************************
+ this program is what I am currently using to show change the color of the current 
+ webpage in the navigation. 
+****************************************************************************/
 window.onload = function(){navigation()}
-
-
-function toggleMenu()
-  { 
-  let curmenu = document.getElementById('navigation').classList;
-  if (curmenu == "noshow"){document.getElementById('navigation').setAttribute("class","shownav");}
-  else if (curmenu == "shownav"){document.getElementById('navigation').setAttribute("class","noshow");}  
-  else{window.alert("stupid");}
-  }
-
-function PopupMessage()
-  {
-    let today = new Date();
-    let daynumber = today.getDay();
-
-    if(daynumber == 6){document.getElementById('Message').setAttribute("Class", "show")}
-    else {document.getElementById("Message").setAttribute("class","noshow")}
-  }
 
   function navigation()
   { 
