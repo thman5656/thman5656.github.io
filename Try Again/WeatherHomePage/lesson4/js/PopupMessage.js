@@ -7,5 +7,5 @@
 let today = new Date();
 let daynumber = today.getDay();
 
-if(daynumber == 6){document.getElementById('Message').setAttribute("Class", "show")}
+if(daynumber == 2){document.getElementById('Message').setAttribute("Class", "show")}
 else {document.getElementById("Message").setAttribute("class","noshow")}

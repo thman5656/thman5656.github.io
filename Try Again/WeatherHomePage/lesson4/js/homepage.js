@@ -1,12 +1,11 @@
-/***************************************************************************
- this program is what I am currently using to show change the color of the current 
- webpage in the navigation. 
-****************************************************************************/
-window.onload = function(){navigation()}
 
-  function navigation()
+
+
+function toggleMenu()
   { 
-   var ActivePage = document.URL;
-   var ActiveHREF = ActivePage.substr(ActivePage.lastIndexOf("/"));
-   document.getElementById(ActiveHREF).style.backgroundColor = "#2c3531";
+    alert(daynumber );
+  let curmenu = document.getElementById('navigation').classList;
+  if (curmenu == "noshow"){document.getElementById('navigation').setAttribute("class","shownav");}
+  else if (curmenu == "shownav"){document.getElementById('navigation').setAttribute("class","noshow");}  
+  else{window.alert("stupid");}
   }
