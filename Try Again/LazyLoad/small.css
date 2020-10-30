@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+
+picture {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 5% 0%;
+}
+
+picture img[data-src] 
+    {
+        filter: blur(0.2em);
+    }
+picture img 
+    {
+        filter: blur(0em);
+        transition: filter 0.5s;
+        align-self: center;
+        justify-self: center;
+    }
+
