@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Class Home Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale= .56">
+        <meta name="description" content="Prestons ID home page">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&family=Montserrat:ital@1&family=Russo+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="lesson4/css/small.css">
+        <link rel="stylesheet" href="lesson4/css/medium.css">
+        <link rel="stylesheet" href="lesson4/css/large.css">
+        <link rel="stylesheet" href="GallaryStuff/css/small.css">
+        <link rel="stylesheet" href="GallaryStuff/css/medium.css">
+        <link rel="stylesheet" href="GallaryStuff/css/large.css">
+        <script src = "lesson4/js/homepage.js"></script>
+        
+    </head>
+        <header>
+           <div id = "headerwrapper">
+               <div id = "logoPic"><img src = "lesson4/css/images/sitelogo.jpg" alt = "logo"> </div>
+               <div id = "nameandmotto">    
+                    <h1>Weather Site</h1>
+                    <p>Right here when you need us</p>
+                </div>
+            </div> 
+        </header>
+        <div id = "navWrapper">
+         <nav>
+            <button class = "block" onclick="toggleMenu()">&#9776; Options</button>
+            <ul class = "noshow" id = navigation>
+                <li><a id = "/index.html" >Home</a></li>
+                <li><a id = "/preston.html" href = "preston.html">Preston</a></li>
+                <li><a href = "#">Soda Springs</a></li>
+                <li><a href = "#">Fish Haven</a></li>
+                <li><a href = "#">Storm Center</a></li>
+                <li><a href = "#">Gallary</a></li>
+            </ul>
+         </nav>
+        </div>
+
+        <main>
+            <div class="pictures">
+                <picture><img src="GallaryStuff/images/placeholder.png" data-src="GallaryStuff/images/3pears-1323727-640x480.jpg" alt="three Pears" ></picture>
+                <picture><img src="GallaryStuff/images/placeholder.png" data-src="GallaryStuff/images/butterfly-1390152-638x421.jpg" alt="butterfly" ></picture>
+                <picture><img src="GallaryStuff/images/placeholder.png" data-src="GallaryStuff/images/marguerite-1372118-639x426.jpg" alt="marguerite bird" ></picture>
+                <picture><img src="GallaryStuff/images/placeholder.png" data-src="GallaryStuff/images/the-road-through-the-woods-1449194-640x480.jpg" alt="road through the woods"></picture>
+                <picture><img src="GallaryStuff/images/placeholder.png" data-src="GallaryStuff/images/tropical-bird-1390996-638x426.jpg" alt="Tropical bird"></picture>
+                <picture><img src="GallaryStuff/images/placeholder.png" data-src="GallaryStuff/images/water-lilly-1368676-638x425.jpg" alt="Water lilly"></picture>
+                <picture><img src="GallaryStuff/images/placeholder.png" data-src="GallaryStuff/images/3pears-1323727-640x480.jpg" alt="three Pears" ></picture>
+                <picture><img src="GallaryStuff/images/placeholder.png" data-src="GallaryStuff/images/butterfly-1390152-638x421.jpg" alt="butterfly" ></picture>
+                <picture><img src="GallaryStuff/images/placeholder.png" data-src="GallaryStuff/images/marguerite-1372118-639x426.jpg" alt="marguerite bird" ></picture>
+                <picture><img src="GallaryStuff/images/placeholder.png" data-src="GallaryStuff/images/the-road-through-the-woods-1449194-640x480.jpg" alt="road through the woods"></picture>
+                <picture><img src="GallaryStuff/images/placeholder.png" data-src="GallaryStuff/images/tropical-bird-1390996-638x426.jpg" alt="Tropical bird"></picture>
+                <picture><img src="GallaryStuff/images/placeholder.png" data-src="GallaryStuff/images/water-lilly-1368676-638x425.jpg" alt="Water lilly"></picture>
+                <picture><img src="GallaryStuff/images/placeholder.png" data-src="GallaryStuff/images/3pears-1323727-640x480.jpg" alt="three Pears" ></picture>
+                <picture><img src="GallaryStuff/images/placeholder.png" data-src="GallaryStuff/images/butterfly-1390152-638x421.jpg" alt="butterfly" ></picture>
+                <picture><img src="GallaryStuff/images/placeholder.png" data-src="GallaryStuff/images/marguerite-1372118-639x426.jpg" alt="marguerite bird" ></picture>
+                <picture><img src="GallaryStuff/images/placeholder.png" data-src="GallaryStuff/images/the-road-through-the-woods-1449194-640x480.jpg" alt="road through the woods"></picture>
+                <picture><img src="GallaryStuff/images/placeholder.png" data-src="GallaryStuff/images/tropical-bird-1390996-638x426.jpg" alt="Tropical bird"></picture>
+                <picture><img src="GallaryStuff/images/placeholder.png" data-src="GallaryStuff/images/water-lilly-1368676-638x425.jpg" alt="Water lilly"></picture>
+            </div>
+        </main>
+        <script src = "GallaryStuff/JS/lazyload.js"></script>
+
+        <footer>
+            <h2>Thank you for visiting our page</h2>
+            <span id = "lasModDate"> </span>
+            <script>
+                const options = { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'  };
+                document.getElementById('lasModDate').textContent = new Date().toLocaleDateString('en-US', options);
+            </script>
+        </footer>
+        <script src = "lesson4/js/currentpage.js"></script>
+</html>
