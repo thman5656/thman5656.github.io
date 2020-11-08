@@ -1,0 +1,55 @@
+form{
+    background-color: white;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vw;
+
+}
+
+form div{
+    height: 16vw;
+    margin: .5vw;
+}
+
+label{
+    font-size: 5vw;
+}
+
+input{
+    height: 6vw;
+    font-size: 4vw;
+    border: .5vw solid black;
+    width: 85vw;
+    margin-top: 2vw;
+}
+
+#rating{
+    width: 60vw;
+}
+.radio{
+   display: inline;
+   width: 40vw;
+}
+#radio{
+    display: inline;
+    width: 40vw;
+
+}
+
+
+#radioId{
+    display: block;
+}
+
+select{
+    font-size: 4vw;
+    border: .5vw solid black;
+    width: 85vw;
+}
+textarea{
+    font-size: 4vw;
+    width: 85vw;
+    height: 10vw;
+    border: .5vw solid black;
+}
