@@ -8,16 +8,17 @@ form{
 }
 
 form div{
-    height: 16vw;
     margin: .5vw;
+    height: 13em;
 }
 
 label{
-    font-size: 5vw;
+    font-size: 4vw;
+
 }
 
 input{
-    height: 6vw;
+    height: 30%;
     font-size: 4vw;
     border: .5vw solid black;
     width: 85vw;
