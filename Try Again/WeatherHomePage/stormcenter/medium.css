@@ -1,0 +1,44 @@
+@media only screen and (min-width:1300px ){
+
+    form{
+        
+        width: 75vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3em;
+    
+    }
+    
+    form div{
+        margin: 2em;
+        height: 15em;
+      
+    }
+    
+    label{
+        font-size: 4vw;
+    }
+    
+    input{
+        width: 60vw;
+        height: 1em;
+        display: block;
+    }
+    
+    #rating{
+        width: 50vw;
+    
+    }
+    select{
+        width: 60vw;
+        height: 2em;
+    }
+    textarea{
+        width: 60vw;
+    }
+
+
+
+
+
+}

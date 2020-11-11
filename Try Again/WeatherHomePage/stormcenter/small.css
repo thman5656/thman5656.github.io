@@ -1,15 +1,15 @@
 form{
     background-color: white;
-    width: 90vw;
+    width: 95vw;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5vw;
+    margin-top: 3em;
 
 }
 
 form div{
     margin: 1.5em;
-    height: 15em;
+    height: 8em;
 }
 
 label{
@@ -18,11 +18,12 @@ label{
 }
 
 input{
-    height: 30%;
+    height: 2em;
     font-size: 4vw;
     border: .5vw solid black;
     width: 85vw;
-    margin-top: 2vw;
+    margin-top: .25em;
+    margin-bottom: 1em;
 }
 
 #rating{
@@ -38,19 +39,19 @@ input{
 
 }
 
-
 #radioId{
     display: block;
 }
 
 select{
-    font-size: 4vw;
+    font-size: 2vw;
     border: .5vw solid black;
     width: 85vw;
+    height: 3em;
 }
 textarea{
     font-size: 4vw;
     width: 85vw;
-    height: 10vw;
+    height: 3em;
     border: .5vw solid black;
 }
