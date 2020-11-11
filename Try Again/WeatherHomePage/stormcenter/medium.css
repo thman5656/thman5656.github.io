@@ -26,7 +26,8 @@
     }
     
     #rating{
-        width: 50vw;
+        width: 30vw;
+        display: inline;
     
     }
     select{
@@ -42,6 +43,9 @@
         height: 2em;
         width: 61vw;
       
+    }
+    span{
+        display: inline;
     }
 
 
