@@ -1,4 +1,4 @@
-@media only screen and (min-width:1300px ){
+@media only screen and (min-width:1200px ){
 
     form{
         
@@ -35,9 +35,14 @@
     }
     textarea{
         width: 60vw;
+        height: 1.5em;
     }
 
-
+    #sumbit{
+        height: 2em;
+        width: 61vw;
+      
+    }
 
 
 

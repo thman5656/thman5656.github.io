@@ -18,7 +18,7 @@ label{
 }
 
 input{
-    height: 2em;
+    height: 1.5em;
     font-size: 4vw;
     border: .5vw solid black;
     width: 85vw;
@@ -52,6 +52,11 @@ select{
 textarea{
     font-size: 4vw;
     width: 85vw;
-    height: 3em;
+    height: 2em;
     border: .5vw solid black;
+}
+
+#sumbit{
+    height: 2em;
+    width: 85vw;
 }
