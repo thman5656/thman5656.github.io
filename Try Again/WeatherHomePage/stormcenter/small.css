@@ -42,8 +42,8 @@ input{
    width: 40vw;
 }
 #radio{
-    display: inline;
-    width: 40vw;
+    display: inline-block;
+    width: 20vw;
     font-size: .75em;
 
 }
