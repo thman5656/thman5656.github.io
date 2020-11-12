@@ -1,3 +1,10 @@
+#pagename{
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
+
+
 form{
     background-color: white;
     width: 95vw;
@@ -7,27 +14,28 @@ form{
 
 }
 
-form div{
+#wrapper{
     margin: 1.5em;
     height: 8em;
 }
 
 label{
-    font-size: 4vw;
+    font-size: 2em;
 
 }
 
 input{
     height: 1.5em;
-    font-size: 4vw;
-    border: .5vw solid black;
+    font-size: 1em;
+    border: .25vw solid black;
     width: 85vw;
     margin-top: .25em;
     margin-bottom: 1em;
+
 }
 
 #rating{
-    width: 60vw;
+    width: 35vw;
 }
 .radio{
    display: inline;
@@ -36,6 +44,7 @@ input{
 #radio{
     display: inline;
     width: 40vw;
+    font-size: .75em;
 
 }
 
@@ -44,19 +53,24 @@ input{
 }
 
 select{
-    font-size: 2vw;
-    border: .5vw solid black;
+    font-size: 1.75em;
+    border: .25vw solid black;
     width: 85vw;
     height: 3em;
 }
 textarea{
-    font-size: 4vw;
+    font-size: 2em;
     width: 85vw;
     height: 2em;
-    border: .5vw solid black;
+    border: .25vw solid black;
 }
 
 #sumbit{
     height: 2em;
     width: 85vw;
+    font-size: 2em;
+}
+#theradios
+{
+    height: 3em;
 }

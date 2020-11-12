@@ -1,57 +1,18 @@
 @media only screen and (min-width:2056px ){
-    form{
-        
-        width: 50vw;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 3em;
-    
-    }
-    
-    form div{
+
+    #wrapper{
         margin: 2em;
-        height: 22em;
-      
+        height: 9em;      
     }
-    
-    label{
-        font-size: 4vw;
-    }
-    
-    input{
-        width: 45vw;
-        height: 1em;
-        display: block;
-    }
-    
-    #rating{
-        width: 25vw;
-    
-    }
-    select{
-        width: 45vw;
-        height: 2em;
-    }
-    textarea{
-        width: 45vw;
-        height: 3em;
-    }
+
     #sumbit{
-        height: 2em;
-        width: 45vw;
+        height: 3em;
+        width: 50vw;
+        font-size: 2.5em;
       
     }
-    .radio{
-        width:20vw ;
-    }
-
-    #radio{
-        width: 20vw;
-    }
-
-
-
-
-
-
+#additionalcomments{
+    height: 3em;
+    margin-bottom: 1em;
+}
 }

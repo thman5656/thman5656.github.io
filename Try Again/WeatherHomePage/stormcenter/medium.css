@@ -1,5 +1,8 @@
-@media only screen and (min-width:1200px ){
-
+@media only screen and (min-width:1400px ){
+    #pagename{
+        font-size: 5em;
+    }
+    
     form{
         
         width: 75vw;
@@ -9,20 +12,26 @@
     
     }
     
-    form div{
+    #wrapper{
         margin: 2em;
-        height: 15em;
-      
+        height: 15em;      
     }
-    
+
     label{
-        font-size: 4vw;
-    }
+        font-size: 2em;
+        height: 2em;
     
+    }
+    #input{
+        display: inline;
+    }
     input{
-        width: 60vw;
+        width: 30vw;
         height: 1em;
-        display: block;
+        display: inline;
+        font-size: 1.5em;
+        margin-left: 3em;
+        margin-right: 1em;
     }
     
     #rating{
@@ -48,6 +57,10 @@
         display: inline;
     }
 
+    #Regioncity{
+        font-size: 3em;
+
+    }
 
 
 }
