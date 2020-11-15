@@ -1,0 +1,49 @@
+@media only screen and (min-width: 1000px) {
+
+section{
+    flex-direction: row;
+}
+
+section section{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+section img {
+    width: 40vw;
+}
+
+#cardnumber4{
+    flex-direction: row-reverse;
+}
+
+section h2{
+    font-size: 4em;
+    width: 40vw;
+    text-align: center;
+
+}
+section h3{
+    font-size: 3em;
+    width: 40vw;
+    text-align: center;
+}
+section p{
+    font-size: 2.75em;
+    width: 40vw;
+    
+}
+
+#article h2{
+    font-size: 5em;
+}
+#article p{
+    font-size: 4em;
+}
+
+
+
+
+
+}

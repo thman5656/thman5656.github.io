@@ -1,0 +1,46 @@
+section{
+    background-color: #d1e8e2;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 2em;
+}
+
+section section{
+    flex-direction: column;
+}
+section h2{
+    font-size: 3em;
+    margin: 0;
+    text-align: center;
+}
+section h3{
+    font-size: 2.5em;
+    margin: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width:70vw ;
+}
+section p{
+    font-size: 2.5em;
+    text-align: left;
+}
+section img{
+    width: 60vw;
+    margin: 1em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#article
+{
+    background-color: #d1e8e2;
+    margin: 2em;
+}
+#article h2{
+    font-size: 2em;
+}
+#article p{
+    font-size: 1.5em;
+}
