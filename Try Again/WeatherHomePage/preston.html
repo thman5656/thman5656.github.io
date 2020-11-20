@@ -50,47 +50,18 @@
                 </picture>
                 <div class="CurrentWeather">
                     <h2>Summary</h2>
-                    <p>Currently: Cloudy</p>
-                    <p>High: <span id="currentHigh">26</span>&deg;F</p>
+                    <p id = "current">Currently: Cloudy</p>
+                    <p>High: <span id="currentHigh"></span>&deg;F</p>
                     <p>Wind Chill: <span id="windChill"></span>&deg;F</p>
-                    <p>Wind: <span id="wind">4</span>MPH</p>
+                    <p>Wind: <span id="wind"></span> MPH</p>
+                    <p>Hummidity: <span id="Hummidity"></span>%</p>
                 </div>
             </section>
             <div id = "Forcast">
                 <h1>Five Day Forcast</h1>
             </div>
 
-            <section class = "Forcastcont">
-                <div id = "Monday">
-                    <h2>Monday</h2>
-                    <img src = "lesson4/css/images/Cloudy.JPG" alt = "Cloudy">
-                    <p>60&deg;</p>
-                </div>  
-
-                <div id = "Tuesday">
-                    <h2>Tuesday</h2>
-                    <img src = "lesson4/css/images/Rainny.JPG" alt = "Rain"> 
-                    <p>50&deg;</p>
-                </div>  
-
-                <div id = "Wednesday">
-                    <h2>Wednesday</h2>
-                    <img src = "lesson4/css/images/Sunny.JPG" alt = "Sunny">
-                    <p>75&deg;</p>
-                </div>  
-
-                <div id = "Thursday">
-                    <h2>Thursday</h2>
-                    <img src = "lesson4/css/images/Sunny.JPG" alt = "Sunny">
-                    <p>70&deg;</p>
-                </div>  
-
-                <div  id = "Friday">
-                    <h2>Friday</h2>
-                    <img src = "lesson4/css/images/Rainny.JPG" alt = "Rain">
-                    <p>65&deg;</p>
-                </div>  
-            </section>
+            <section class = "Forcastcont" id = "weatherforecast"></section>
 
             <div id = "Article">
                 <h1>Article</h1>
@@ -118,7 +89,9 @@
                 document.getElementById('lasModDate').textContent = new Date().toLocaleDateString('en-US', options);
             </script>
         </footer>
+        <script src = "lesson10stuff/currentweather.js"></script>
         <script src="lesson4/js/windchill.js"></script>
         <script src = "lesson4/js/PopupMessage.js"></script>
         <script src = "lesson4/js/currentpage.js"></script>
+        <script src = "lesson10stuff/script.js"></script>
 </html>
