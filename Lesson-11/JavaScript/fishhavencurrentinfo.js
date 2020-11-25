@@ -23,30 +23,29 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     const towns = jsonObject['towns'];
-        for (let i = 0; i < towns.length; i++ ) 
-        {
-            if(towns[i].name == "Fish Haven"){
-            
-            let eventsSection = document.createElement('section');
-            let title = document.createElement('h2');
-            let event1 = document.createElement('p');
-            let event2 = document.createElement('p');
-            let event3 = document.createElement('p');
-           
+    for (let i = 0; i < towns.length; i++ ) 
+    {
+      
+        if(towns[i].name == "Fish Haven"){
+        let counter = 0;
 
-            title.textContent = "Town Events";
-            event1.textContent = towns[i].events[0];
-            event2.textContent = towns[i].events[1];
-            event3.textContent = towns[i].events[2];
-            
-            
-            eventsSection.appendChild(title);
+        let eventsSection = document.createElement('section');
+        let title = document.createElement('h2');
+    
+        title.textContent = "Town Events";
+        
+        eventsSection.appendChild(title);
+        
+          do{
+            let event1 = document.createElement('p');
+            event1.textContent = towns[i].events[counter];
             eventsSection.appendChild(event1);
-            eventsSection.appendChild(event2);
-            eventsSection.appendChild(event3);
-   
-            
-            document.getElementById("currentevents").appendChild(eventsSection);
-        }};
+            counter++;
+
+
+          }while (counter < towns[i].events.length);
+
+          document.getElementById("currentevents").appendChild(eventsSection);
+    }};
             
     });
