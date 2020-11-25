@@ -33,6 +33,14 @@ input{
     margin-bottom: 1em;
 
 }
+div p{
+    height: 1em;
+    font-size: 2em;
+    width: 85vw;
+    margin-top: .25em;
+    margin-bottom: .25em;
+
+}
 
 #rating{
     width: 35vw;
