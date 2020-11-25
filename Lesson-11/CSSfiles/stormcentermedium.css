@@ -17,12 +17,12 @@
         height: 8em;      
     }
 
-    label{
+   div p{
         font-size: 2em;
         height: 2em;
     
     }
-    #input{
+    div p{
         display: inline-block;
         height: 3em;
         width: 5em;
