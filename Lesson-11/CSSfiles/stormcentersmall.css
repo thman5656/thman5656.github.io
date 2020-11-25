@@ -45,15 +45,45 @@ div p{
 #rating{
     width: 35vw;
 }
-.radio{
+.radio1{
    display: inline;
    width: 40vw;
 }
-#radio{
+.radio2{
+    display: inline;
+    width: 40vw;
+ }
+ .radio3{
+    display: inline;
+    width: 40vw;
+ }
+#radio1{
     display: inline-block;
     width: 20vw;
     font-size: .75em;
+}
+#radio2{
+    display: inline-block;
+    width: 20vw;
+    font-size: .75em;
+}
+#radio3{
+    display: inline-block;
+    width: 20vw;
+    font-size: .75em;
+}
 
+#theradios1
+{
+    height: 3em;
+}
+#theradios2
+{
+    height: 3em;
+}
+#theradios3
+{
+    height: 3em;
 }
 
 #radioId{
@@ -77,8 +107,4 @@ textarea{
     height: 2em;
     width: 85vw;
     font-size: 2em;
-}
-#theradios
-{
-    height: 3em;
 }
