@@ -1,5 +1,21 @@
 @media only screen and (min-width:1000px )
 {
+
+    #headerwrapper
+        {
+            background-color: white;
+            color: #116466;
+            display: flex;
+            margin: 2.5% 2.5% 0 2.5%;
+            width: 95vw;
+            height: 15vw;
+        }
+    #nameandmotto h1
+        {
+            font-size: 3em;
+            text-align: center;
+        }
+  
     .block
         {
             display: none;
@@ -7,7 +23,7 @@
     #nameandmotto p
     {
         display: block;
-        font-size: 5vw;
+        font-size: 2em;
         text-align: center;
         padding: 0;
     }
