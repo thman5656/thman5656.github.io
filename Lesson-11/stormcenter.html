@@ -43,28 +43,28 @@
         <main>
             <h1 id = "pagename">Storm Center</h1>
             <form class="input" action="thankyou.html">
-                <div id = wrapper>
-                    <label class="required"><div id = "input">Full Name:</div><input type = "text" name = "name" minlength="4" maxlength="30" pattern=".{5,}" placeholder = "first Middle Last" required></label>
+                <div>
+                    <label class="required"><p>Full Name:</p><input type = "text" name = "name" minlength="4" maxlength="30" pattern=".{5,}" placeholder = "first Middle Last" required></label>
                 </div>
                 
-                <div id = wrapper>
-                    <label class ="required"><div id = "input">Email:</div><input type="email" name = "email" placeholder = "bobbyJoej@gmail.com" required></label>
+                <div>
+                    <label class ="required"><p>Email:</p><input type="email" name = "email" placeholder = "bobbyJoej@gmail.com" required></label>
                 </div>
 
-                <div id = wrapper>
-                    <label class = "required"><div id = "input">Phone Number:</div><input type="tel" name = "phone" placeholder="111-333-9999" required></label>
+                <div>
+                    <label class = "required"><p>Phone Number:</p><input type="tel" name = "phone" placeholder="111-333-9999" required></label>
                 </div>
 
-                <div id = wrapper>
-                    <label class = "required"><div id = "input">Zip Code:</div><input type="number" name = "Zip" placeholder="83401" required></label>
+                <div>
+                    <label class = "required"><p>Zip Code:</p><input type="number" name = "Zip" placeholder="83401" required></label>
                     
                 </div>
-                <div id = wrapper >
-                    <label  class = "required"><div id = "input">Storm Date:</div><input type = "date" name="stormdate"required></label>
+                <div>
+                    <label  class = "required"><p>Storm Date:</p><input type = "date" name="stormdate" required></label>
                     
                 </div>
-                <div id = wrapper>
-                    <label  class = "required"><div id = "input">Storm Type:</div><input list="stormtypes" name="stormtype" required></label>
+                <div>
+                    <label  class = "required"><p>Storm Type:</p><input list="stormtypes" name="stormtype" required></label>
                     <datalist id = "stormtypes">
                         <option value="Flash Flood"></option>
                         <option value="Hail"></option>
@@ -94,7 +94,7 @@
                     </datalist>
                 </div>
 
-                <div id = wrapper>
+                <div>
                     <label for="Regioncity">Choose a region: </label>
                     <select id="Regioncity" name="stormregion">
                         <option value="">Select a region</option>
@@ -109,11 +109,11 @@
                     <div id = "theradios"><label class="radio"><input id = "radio" type="radio" name="dangerstatus" value="maybe"> Maybe</label></div>
                     <div id = "theradios"><label class="radio"><input id = "radio" type="radio" name="dangerstatus" value="no"> No</label></div>
 
-                <div id = wrapper>
+                <div>
                     <label for = "additionalcomments">Any additional comments:</label>
                     <textarea id = "additionalcomments" name="additionalcomments"></textarea>
                 </div>
-                <div id = wrapper>
+                <div>
                     <input id = "sumbit" type="submit" value="Record Storm" name = "submit">
                 </div>
              </form>
