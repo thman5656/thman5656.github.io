@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Class Home Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale= .56">
+        <meta name="description" content="Prestons ID home page">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&family=Montserrat:ital@1&family=Russo+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="CSSfiles/prestonsmall.css">
+        <link rel="stylesheet" href="CSSfiles/prestonmedium.css">
+        <link rel="stylesheet" href="CSSfiles/prestonlarge.css">
+        <link rel="stylesheet" href="CSSfiles/stormcentersmall.css">
+        <script src="JavaScript/stormcenter.js"></script>
+        <script src = "JavaScript/homepage.js"></script>
+        <link rel="stylesheet" href="CSSfiles/homepagesmall.css">
+        <link rel="stylesheet" href="CSSfiles/homepagemedium.css">
+        <link rel="stylesheet" href="CSSfiles/homepagelarge.css">
+        
+    </head>
+        <header>
+           <div id = "headerwrapper">
+               <div id = "logoPic"><img src = "Images/sitelogo.jpg" alt = "logo"> </div>
+               <div id = "nameandmotto">    
+                    <h1>Weather Site</h1>
+                    <p>Right here when you need us</p>
+                </div>
+            </div> 
+        </header>
+        <div id = "navWrapper">
+         <nav>
+            <button class = "block" onclick="toggleMenu()">&#9776; Options</button>
+            <ul class = "noshow" id = navigation>
+                <li><a id = "/index.html" href="index.html" >Home</a></li>
+                <li><a id = "/preston.html" href = "preston.html">Preston</a></li>
+                <li><a id = "/sodasprings.html" href = "sodasprings.html">Soda Springs</a></li>
+                <li><a id = "/fishhaven.html" href = "fishhaven.html">Fish Haven</a></li>
+                <li><a id = "/stormcenter.html" href = "stormcenter.html">Storm Center</a></li>
+                <li><a id = "/Gallary.html" href = "Gallary.html">Gallary</a></li>
+            </ul>
+         </nav>
+        </div>
+        <main>
+                <div>
+                    <div class = "cards"></div>
+                </div>
+                <div id = "article">
+                    <h2>Article heading </h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, fuga.
+                         At accusantium velit hic ducimus, recusandae enim nisi eum esse exercitationem 
+                         ut minus officiis eligendi rem dolores numquam dolorum culpa. Lorem ipsum dolor 
+                         sit amet consectetur adipisicing elit. Maxime obcaecati adipisci quaerat, minus 
+                         consequuntur error eligendi officiis? Aperiam unde fuga veniam eius officiis
+                          commodi quidem quam, eveniet nulla est laborum?</p>
+                </div>
+
+                <div id = "Contactus">
+                    <div id = "infoandImage">
+                        <div id = "info">
+                            <p>301 N 1st E Preston ID 83263 <br> <br> PrestonID.ComeandSee@gmail.com <br><br>Phone number - 208-999-9999</p>
+                        </div>
+                        <img  id = "map" src = "Images/map.JPG" alt = "map">
+                    </div>
+                    <div id = "SocialMedia">
+                        <img  src = "Images/Facbook.JPG" alt = "Facebook logo">
+                        <img  src = "Images/Twitter.JPG" alt = "Twitter logo">
+                        <img  src = "Images/Youtube.JPG" alt = "Youtube logo">
+                    </div>
+                </div>
+
+        </main>
+        <footer>
+            <h2>Thank you for visiting our page</h2>
+            <a  href="homewireframes.html" >Home wirefram link</a>
+            <span id = "lasModDate"> </span>
+            <script>
+                const options = { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'  };
+                document.getElementById('lasModDate').textContent = new Date().toLocaleDateString('en-US', options);
+            </script>
+        </footer>
+        <script src = "JavaScript/currentpage.js"></script>
+        <script src="JavaScript/towninfo.js"></script>
+</html>

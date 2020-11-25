@@ -1,0 +1,80 @@
+@media only screen and (min-width:1400px ){
+    #pagename{
+        font-size: 5em;
+    }
+    
+    form{
+        
+        width: 75vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3em;
+    
+    }
+    
+    #wrapper{
+        margin: 2em;
+        height: 8em;      
+    }
+
+    label{
+        font-size: 2em;
+        height: 2em;
+    
+    }
+    #input{
+        display: inline-block;
+        height: 3em;
+        width: 5em;
+    }
+    input{
+        width: 40vw;
+        height: 1em;
+        display: inline;
+        font-size: 1.5em;
+        margin-left: 3em;
+        margin-right: 1em;
+    }
+    
+    #rating{
+        width: 30vw;
+        display: inline;
+    
+    }
+    select{
+        width: 60vw;
+        height: 2em;
+    }
+    textarea{
+        width: 60vw;
+        height: 1.5em;
+    }
+
+    #sumbit{
+        height: 2em;
+        width: 61vw;
+      
+    }
+    span{
+        display: inline;
+    }
+
+    #Regioncity{
+        font-size: 3em;
+
+    }
+    #submit{
+        display: block;
+        width: 40vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #additionalcomments{
+        height: 3em;
+        margin-bottom: 1em;
+        width: 70vw;
+    }
+
+
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Class Home Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale= .56">
+        <meta name="description" content="Prestons ID home page">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&family=Montserrat:ital@1&family=Russo+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="CSSfiles/prestonsmall.css">
+        <link rel="stylesheet" href="CSSfiles/prestonmedium.css">
+        <link rel="stylesheet" href="CSSfiles/prestonlarge.css">
+        <link rel="stylesheet" href="CSSfiles/stormcentersmall.css">
+        <link rel="stylesheet" href="CSSfiles/stormcentermedium.css">
+        <link rel="stylesheet" href="CSSfiles/stormcenterlarge.css">
+        <script src="JavaScript/stormcenter.js"></script>
+        <script src = "JavaScript/homepage.js"></script>
+        
+    </head>
+        <header>
+           <div id = "headerwrapper">
+               <div id = "logoPic"><img src = "Images/sitelogo.jpg" alt = "logo"> </div>
+               <div id = "nameandmotto">    
+                    <h1>Weather Site</h1>
+                    <p>Right here when you need us</p>
+                </div>
+            </div> 
+        </header>
+        <div id = "navWrapper">
+         <nav>
+            <button class = "block" onclick="toggleMenu()">&#9776; Options</button>
+            <ul class = "noshow" id = navigation>
+                <li><a id = "/index.html" href="index.html" >Home</a></li>
+                <li><a id = "/preston.html" href = "preston.html">Preston</a></li>
+                <li><a id = "/sodasprings.html" href = "sodasprings.html">Soda Springs</a></li>
+                <li><a id = "/fishhaven.html" href = "fishhaven.html">Fish Haven</a></li>
+                <li><a id = "/stormcenter.html" href = "stormcenter.html">Storm Center</a></li>
+                <li><a id = "/Gallary.html" href = "Gallary.html">Gallary</a></li>
+            </ul>
+         </nav>
+        </div>
+        <main>
+            <h1 id = "pagename">Storm Center</h1>
+            <form class="input" action="thankyou.html">
+                <div id = wrapper>
+                    <label class="required"><div id = "input">Full Name:</div><input type = "text" name = "name" minlength="4" maxlength="30" pattern=".{5,}" placeholder = "first Middle Last" required></label>
+                </div>
+                
+                <div id = wrapper>
+                    <label class ="required"><div id = "input">Email:</div><input type="email" name = "email" placeholder = "bobbyJoej@gmail.com" required></label>
+                </div>
+
+                <div id = wrapper>
+                    <label class = "required"><div id = "input">Phone Number:</div><input type="tel" name = "phone" placeholder="111-333-9999" required></label>
+                </div>
+
+                <div id = wrapper>
+                    <label class = "required"><div id = "input">Zip Code:</div><input type="number" name = "Zip" placeholder="83401" required></label>
+                    
+                </div>
+                <div id = wrapper >
+                    <label  class = "required"><div id = "input">Storm Date:</div><input type = "date" name="stormdate"required></label>
+                    
+                </div>
+                <div id = wrapper>
+                    <label  class = "required"><div id = "input">Storm Type:</div><input list="stormtypes" name="stormtype" required></label>
+                    <datalist id = "stormtypes">
+                        <option value="Flash Flood"></option>
+                        <option value="Hail"></option>
+                        <option value="Hurricane"></option>
+                        <option value="Thunderstorm"></option>
+                        <option value="Tornado"></option>
+                    </datalist>
+                </div>
+                <div id = wrapper>
+                    <label class="flexly" for="rating">Rating: &nbsp;&nbsp;&nbsp;
+                        <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">5</span>
+                    </label>
+        
+                    <datalist id="tickmarks">
+                        <option value="0">
+                        <option value="1">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5">
+                        <option value="6">
+                        <option value="7">
+                        <option value="8">
+                        <option value="9">
+                        <option value="10">
+                    </datalist>
+                </div>
+
+                <div id = wrapper>
+                    <label for="Regioncity">Choose a region: </label>
+                    <select id="Regioncity" name="stormregion">
+                        <option value="">Select a region</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Soda Springs">Soda Springs</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                    </select>
+                </div>
+
+                    <label id = "radioId" for = "dangerstatus">Are you in Danger?</label>
+                    <div id = "theradios"><label class="radio"><input id = "radio" type="radio" name="dangerstatus" value="yes"> Yes</label></div>
+                    <div id = "theradios"><label class="radio"><input id = "radio" type="radio" name="dangerstatus" value="maybe"> Maybe</label></div>
+                    <div id = "theradios"><label class="radio"><input id = "radio" type="radio" name="dangerstatus" value="no"> No</label></div>
+
+                <div id = wrapper>
+                    <label for = "additionalcomments">Any additional comments:</label>
+                    <textarea id = "additionalcomments" name="additionalcomments"></textarea>
+                </div>
+                <div id = wrapper>
+                    <input id = "sumbit" type="submit" value="Record Storm" name = "submit">
+                </div>
+             </form>
+                
+        </main>
+        <footer>
+            <h2>Thank you for visiting our page</h2>
+            <span id = "lasModDate"> </span>
+            <script>
+                const options = { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'  };
+                document.getElementById('lasModDate').textContent = new Date().toLocaleDateString('en-US', options);
+            </script>
+        </footer>
+        <script src = "JavaScript/currentpage.js"></script>
+</html>

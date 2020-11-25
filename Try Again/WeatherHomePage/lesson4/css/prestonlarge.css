@@ -1,0 +1,25 @@
+@media only screen and (min-width:2000px)
+    {
+        #pageName
+            {
+                font-size: 120px;
+                color: #D1e8e2;
+                margin: 5%;
+                text-align: center;
+            }
+
+        #nameandmotto h1
+            {
+                font-size: 100px;
+                text-align: center;
+            }
+        #nameandmotto p
+            {
+                font-size: 60px;
+            }
+         img
+            {
+                width: 300px; 
+            }
+
+    }
