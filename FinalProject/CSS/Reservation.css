@@ -1,0 +1,29 @@
+input{display: block; width: 70vw; height: 6vh; margin: 1rem auto; font-size: 2rem; border: 3px solid black;}
+form{width: 80vw; margin: auto;}
+p{display: none;}
+#additionalcomments{width: 80vw; height: 10vh; border: 3px solid black;}
+label{font-size: 1.5rem; text-align: center;}
+#comments{display: block; font-size: 1.5rem;}
+#Agreement{display: block;font-size: 1.5rem; width: 90vw; margin: auto;}
+h1{width: 90vw; margin: .5rem auto;}
+#pagetitle{text-align: center;}
+div{margin: 2rem 0;}
+
+@media only screen and (min-width:1000px ){
+
+#Agreement{font-size: 2rem;}
+#pagetitle{font-size: 3rem;}
+h1{font-size: 2rem;}
+
+}
+
+@media only screen and (min-width:1600px ){
+
+input{width: 30vw;}
+#firstinputs{display: flex; flex-direction: row; width: 80vw; margin: auto; justify-content: center;}
+#column1{display: flex; flex-direction: column; margin: 0 2rem;}
+#column2{display: flex; flex-direction: column; margin: 0 2rem;}
+
+#dates{display: flex; flex-direction: row; width: 80vw; margin: auto; justify-content: center;}
+#dates div{margin: 0 2rem;}
+}

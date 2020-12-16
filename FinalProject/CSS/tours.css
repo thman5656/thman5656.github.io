@@ -1,0 +1,41 @@
+#one{width: 70vw;}
+#two{width: 70vw;}
+#three{width: 70vw;}
+
+#LocationOne{display:flex; flex-direction: column; width: 70vw; margin: auto;}
+#LocationTwo{display:flex; flex-direction: column; width: 70vw; margin: auto;}
+#LocationThree{display:flex; flex-direction: column; width: 70vw; margin: auto;}
+p{font-size: 2rem;}
+
+@media only screen and (min-width:1000px ){
+
+h1{display: none;}
+#one{width: 30vw; margin: 2rem;}
+p{width: 40vw; }
+#LocationOne{flex-direction: row;}
+
+#two{width: 30vw; margin: 2rem;}
+#LocationTwo{flex-direction: row-reverse;}
+
+#three{width: 30vw; margin: 2rem;}
+#LocationThree{flex-direction: row;}
+
+p{font-size: 2rem;}
+
+
+}
+
+@media only screen and (min-width:1600px ){
+
+    #locations{display: flex; flex-direction: row; width: 80vw; margin: auto;}
+    #LocationOne{flex-direction: column;}
+    #LocationTwo{flex-direction: column;}
+    #LocationThree{flex-direction: column;}
+
+    #one{width: 20vw;}
+    #two{width: 20vw;}
+    #three{width: 20vw;}
+    p{width: 20vw;}
+
+
+}

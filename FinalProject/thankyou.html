@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Scoots Home Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale= .60">
+        <meta name="description" content="Prestons ID home page">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+
+        <!--CSS links -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <!--will be the same for all pages-->
+        <link rel="stylesheet" href="CSS/AllPagesmall.css">
+        <link rel="stylesheet" href="CSS/AllPagemedium.css">
+        <link rel="stylesheet" href="CSS/AllPagelarge.css">
+        <!--CSS Unique to each papge-->
+
+        <!--JS links-->
+        <script src = "JSFiles/button.js"></script>
+
+    </head>
+        <!--This area will contain the header, with the navigation and the site logo with a color bar across the page this will be the same across all pages -->
+        <header>
+            <div id = "backgroundcolor">
+                <div id = "logo"><img id = "logo" src = "Images/logo.png" alt = "logo"> </div>
+                <div id = "headertext">
+                    <h1 id = "pageTitle">Scoots Rentals</h1>
+                    <h2 id = "motto">we can get you scooting to where you want to go!</h2>
+                </div>
+            </div>
+            <div id = "navigation">
+                <button class = "button1" onclick="toggleMenu()">&#9776; Options</button>
+                <nav class = "hiddenMenu" id = "nav">
+                        <ul class = "noshow" id = "navUL">
+                            <li id = "navUL1"><a id = "/HomePage.html" href = "HomePage.html">Home</a></li>
+                            <li id = "navUL2"><a id = "/Rentals.html" href = "Rentals.html">Rentals</a></li>
+                            <li id = "navUL3"><a id = "/Reservations.html" href = "Reservations.html">Reservations</a></li>
+                            <li id = "navUL4"><a id = "/Tours.html" href = "Tours.html">Tours</a></li>
+                            <li id = "navUL5"><a id = "/Contact.html" href = "Contact.html">Contact</a></li>
+                        </ul>
+               </nav>
+            </div>
+            <div id = "bannerIMG"><img id = "Banner" src = "Images/banner.jpg" alt = "sunset"> </div>
+        </header>
+
+        <!--This will contain all the content of the page this will very across pages -->
+        <body>
+            <h1>Thank You! your reservation has been made</h1>
+    
+
+        <!-- this will contain the footer with the social media links and contact information this will be the same across all pages-->
+        <footer>
+            <div id = "SocialMediaLinks">
+                 <div id = "facebook"><a href = "https://www.facebook.com/"><img id = "facebook" src = "Images/Facbook.JPG" alt = "facebook"></a></div>
+                <div id = "Twitter"> <a href = "https://twitter.com/"><img id = "Twitter" src = "Images/Twitter.JPG" alt = "Twitter" ></a></div>
+                <div id = "Youtube"><a href ="https://www.youtube.com/"> <img id = "youtube" src = "Images/Youtube.JPG" alt = "Youtube"></a></div>
+            </div>  
+            <div id = "otherContact">
+                <div id = "email">Email Address:  scoots@gmail </div>
+                <div id = "phoneNumber">Phone Number:  (555)555-5555</div>
+             </div>
+        </footer>
+
+        <script src = "JSFiles/currentpage.js"></script>
+     
+</html>

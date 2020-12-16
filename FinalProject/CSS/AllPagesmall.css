@@ -1,0 +1,46 @@
+@import "https://fonts.googleapis.com/css2?family=Abel&family=Open+Sans+Condensed:wght@300&display=swap";
+
+
+
+/*Header*/
+
+    #logo{ width: 15vw; display: inline; padding-right: 5vw; padding-left: 2vw;}
+    #pageTitle{display: inline; color: #caf0f8; font-size: 3.5em; font-family: abel ;}
+    #motto{color: #caf0f8; font-size: 1.5em; font-family:abel;}
+    #backgroundcolor{ background-color: #0077b6;  display: flex; flex-direction: row; width: 95vw; }
+    header{margin-right: auto; margin-left: auto;  padding: 2.5%;}
+    #headertext{text-align: right; width: 70vw;}
+
+
+/*Nav*/
+/*Button*/
+.noshow{display: none;}
+button{width: 95vw;font-size: 40px; background-color: #90e0ef;}
+.shownav{background-color: #0077b6; text-align: center; list-style-type: none;}/* not currently working and not sure why the list style is still showing defaul bullet points */
+li a{color: #caf0f8;font-size: 5vw; display: block; text-decoration: none; font-family: abel;}
+li a:hover{ background-color: #f48c06; color:#0077b6 }
+#Banner{display: none;}
+
+
+
+/*body temporary*/
+#colorOne{display: block; background-color: #03045e; height: 10vh;}
+#colorTwo{display: block; background-color: #0077b6; height: 10vh;}
+#colorThree{display: block; background-color:#00b4d8; height: 10vh;}
+#colorFour{display: block; background-color: #90e0ef; height: 10vh;}
+#colorFive{display: block; background-color: #caf0f8; height: 10vh;}
+#colorSix{display: block; background-color: #f48c06; height: 10vh;}
+
+
+
+#reservationButton{display: block; width: 65vw; height: 10vh; margin: auto; margin-bottom: 2rem; margin-top: 2rem; background-color: #00b4d8; color: #03045e; font-size: 1.45rem;}
+#reservation{background-color: #90e0ef;width: 70vw; margin: auto;}
+
+/*Footer*/
+footer{display:flex; flex-direction: column; background-color: #0077b6;  margin: auto; width: 95vw; }
+#facebook{width: 10vw;}
+#Twitter{width: 10vw;}
+#youtube{width: 10vw;}
+#SocialMediaLinks{display: flex; flex-direction: row;}
+#email{font-size: 2em;}
+#phoneNumber{font-size: 2em;}

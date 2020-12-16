@@ -1,0 +1,39 @@
+#rentalone{ width: 90vw; margin: auto;}
+#rentaltwo{ width: 90vw; margin: auto;}
+#maintitle{font-size: 2.5rem; text-align: center;}
+#box1{width: 90vw; margin: auto;}
+#rentalinfo{font-size: 2rem; width: 90vw; margin: auto;}
+#threedayforcast{display: none;}
+.CurrentWeather{display: flexbox; width: 90vw; margin: auto; background-color: #90e0ef;}
+#weathertitle{text-align: center;}
+p{ font-size: 2rem;}
+
+@media only screen and (min-width:1000px ){
+
+.CurrentWeather{display: none;}
+#threedayforcast{display: block;}
+#forcast{display:flex; flex-direction: row; width: 90vw; margin: 1rem auto; justify-content: center; background-color:#00b4d8;}
+#threeday{text-align: center; font-size: 4rem;}
+
+#dayOne{margin: 0 2rem; background-color: #90e0ef; padding:  0 2rem; font-size: 2rem; border: 3px solid black;}
+#dayTwo{margin: 0 2rem; background-color: #90e0ef; padding:  0 2rem; font-size: 2rem; border: 3px solid black;}
+#dayThree{margin: 0 2rem; background-color: #90e0ef; padding:  0 2rem; font-size: 2rem; border: 3px solid black;}
+
+#rentalinfo{font-size: 2rem;}
+li{font-size: 2.5rem;}
+#whowe{font-size: 2.5rem;}
+h1{font-size: 2.5rem;}
+
+}
+
+@media only screen and (min-width:1600px ){
+    #whowe{max-width: 1020px; margin: auto;}
+    #rentalone{max-width: 1020px; margin: auto;}
+    #box1{max-width:1020px; margin:auto;}
+    #threedayforcast{max-width: 1020px; margin: auto;}
+    #forcast{max-width: 1020px; margin: auto;}
+    #rentalinfo{max-width: 1020px; margin: auto;}
+    #rentaltwo{max-width: 1020px; margin: 1rem auto;}
+
+
+}

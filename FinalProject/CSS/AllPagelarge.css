@@ -1,0 +1,12 @@
+@media only screen and (min-width:1600px ){
+
+#navUL.noshow{margin: 0; padding: 0;}
+#nav.hiddenMenu{margin: 0; padding: 0; max-width: 1020px; margin: auto;}
+#navigation{margin: 0; padding: 0; max-width: 1020px; margin: auto;}
+#navUL.noshow{max-width: 1020px; margin: auto;}
+#Banner{max-width: 1020px; margin: 1rem auto;}
+
+#reservationButton{max-width: 1000px; margin: auto;}
+#reservation{max-width: 1020px; margin: 2rem auto;}
+
+}/*end media query */

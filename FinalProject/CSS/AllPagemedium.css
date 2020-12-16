@@ -1,0 +1,24 @@
+@media only screen and (min-width:1000px ){
+
+    .noshow{display: inline; display: flex; flex-direction: row; list-style-type: none; width: 90vw; background-color: #caf0f8; justify-content: space-around; }
+    button{display: none;}
+
+    #navUL.noshow{width: 90vw; padding: 0; margin: auto;}
+    #nav.hiddenMenu{width: 90vw; padding: 0; margin: auto;}
+    #navigation{width: 90vw; padding: 0; margin: auto;}
+    #navUL.noshow{width: 90vw; padding: 0; margin: auto;}
+    
+    li a{color: #caf0f8;font-size: 2.5rem; text-decoration: none; background-color:  #0077b6; padding: 1rem;  text-align: center; margin: .5rem;}
+    li a:hover{ background-color: #f48c06; color:#0077b6 }
+
+    #reservationButton{ font-size: 2.75rem;}
+
+    #Banner{display: block; width: 90vw; margin: auto;}
+
+
+
+
+
+
+
+}/*end of media query */

@@ -1,0 +1,27 @@
+#map {width: 90vw; margin: auto;}
+iframe{height: 20vh; width: 90vw; margin: auto;}
+input{display: block; width: 70vw; height: 6vh; margin: 1rem auto; font-size: 2rem; border: 3px solid black;}
+#additionalcomments{width: 70vw; height: 10vh; border: 3px solid black; margin: 1rem auto;}
+p{display: none;}
+#acomments{width: 70vw; margin: auto;}
+#answer{display: block;}
+#FAQ{width: 70vw; margin: auto;}
+
+@media only screen and (min-width:1000px ){
+
+
+
+
+
+
+    
+}
+
+@media only screen and (min-width:1600px ){
+
+.input{max-width: 1020px; margin: auto;}
+input{max-width: 1020px; margin: auto;}
+#additionalcomments{max-width: 1020px; margin: auto;}
+#FAQ{max-width: 1020px; margin: auto;}
+
+}
